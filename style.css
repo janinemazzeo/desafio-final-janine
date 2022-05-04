@@ -247,10 +247,33 @@ padding-right: 50px;
 }
 
 
+/* Este cambio esta al final pero luego va a estar ordenado */
 
+.main-menu{
+    display: flex inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.cabeza-menu{
+    display: flex;
+    justify-content: center;
+}
 
+.sub-lista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
 
-
+.sub-lista li{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #316B83;
+}
 
 
 
