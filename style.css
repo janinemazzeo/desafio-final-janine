@@ -1,0 +1,281 @@
+*{margin: 0px;}
+/* body */
+body{ background-color: #D9ADAD;
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D9ADAD;
+}
+
+.menu {
+    background-color: #84A9AC;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+
+.logo{
+    color: #316B83;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+
+.menu-items{
+   display: flex;
+   list-style: none;
+   margin-right: 30px;
+}
+
+.menu-items li{
+   border-radius: 3px;
+   margin: 0px 5px;
+}
+
+.menu-items li a{
+   padding: 7px 13px;
+   text-decoration: none;
+   font-size: 18px;
+   display: block;
+   text-transform: uppercase;
+   color: #316B83;
+}
+
+.menu-items li:hover, li:active{
+   background-color: rgb(0, 0, 0,.3);
+   transition: .4s;
+}
+
+ul .show{
+   top: 65px;
+}
+
+@media  screen and (max-width: 952px) {
+   .logo {
+       font-size: 30px;
+       padding-left: 35px;}
+       
+
+   .menu-items ul li {
+         font-size: 16px;}
+
+
+}
+
+
+/* section 1 */
+
+.menu-index { font-size: 20px;
+    background-color: #D9ADAD;
+    padding: 20px, 0;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-menu {
+    display: flex;
+}
+
+.lista-menu li a {
+    color: #316B83;
+    text-decoration: none;
+}
+
+.menu-index ul {list-style: none;}
+
+
+
+
+/* section 2 */
+
+.sec-insta{
+    display: flex inline-block;
+    justify-items:normal;
+}
+
+.ig a {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-insta a {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-ig {
+    padding: 20px;
+}
+
+.sec-insta {padding: 40px;}
+
+.contenedor-foto-ig{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-ig {
+    display: flex inline-block;
+    justify-content: center;
+}
+
+.insta-index {display: block;}
+
+.sec-personalizados{
+    display: flex inline-block;
+    justify-content: center;
+}
+
+.personalizados a {
+    text-decoration: none;
+}
+
+.personalizados li {display: inline-block;
+    padding: 20px;
+
+}
+
+/* footer */
+
+.pie-pagina{ 
+    display: flex inline-block;
+}
+
+
+.correo-suscri {padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info li {padding: 10px;}
+
+
+.contenedor-mapita{
+    display: flex;
+    justify-content:end;
+}
+.mapita {padding: 10px;}
+
+.copy{
+    display: flex;
+    justify-content: end;
+}
+
+/* Html de Nosotros */
+
+.contenedor-nosotros{
+    display: grid;
+    
+}
+
+.primer-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.nos-nos{
+    padding-bottom: 15px;
+}
+
+.sig-nos{
+    padding-bottom: 10px;
+}
+
+.lorem-sig{
+    padding-bottom: 30px;
+}
+
+.sobre-nos{
+    padding-bottom: 10px;
+}
+
+.texto-nos{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.vision-mision{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mision-tit{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.lorem-mision{
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.vision-tit{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.lorem-vision{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contenedor-pie{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:451px) {
+    .nav-completo{
+        box-sizing: 20px;}
+    .contenedor-nosotros{
+        display: grid;
+        grid-column-start: 1fr;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
