@@ -161,11 +161,14 @@ ul .show{
     display: flex;
     justify-content:end;
 }
-.mapita {padding: 10px;}
+.mapita {padding: 10px;
+padding-right: 25px;
+}
 
 .copy{
     display: flex;
     justify-content: end;
+    padding-right: 25px;
 }
 
 /* Html de Nosotros */
