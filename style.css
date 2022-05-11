@@ -29,21 +29,34 @@ body{
 .menu-index { font-size: 20px;
     background-color: #D9ADAD;
     padding: 20px, 0;
-    display: flex;
-    justify-content: center;
+    display: flex inline block;
+    padding-top: 15px;    
 }
 
 .lista-menu {
     display: flex;
-}
+    justify-content: center;
+} 
 
 .lista-menu li a {
     color: #316B83;
     text-decoration: none;
-}
-
+    display: flex inline-block;
+    justify-content: center;
+    align-items: center;
+      
+} 
+ .lista-menu li a img{
+     display:flex inline block;
+     padding-top: 2px;
+     align-items: center;
+ }
 .menu-index ul {list-style: none;}
 
+.img-encabezado img{
+box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+
+}
 
 
 
@@ -52,11 +65,15 @@ body{
 .sec-insta{
     display: flex inline-block;
     justify-items:normal;
+    background-color: #bb6a6a;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
 .ig a {
     display: flex;
     justify-content: center;
+    background-color: rgb(247, 199, 211);
+    
 }
 
 .sec-insta a {
@@ -235,6 +252,46 @@ padding-right: 50px;
 
 
 
+
+
+
+.lista-menu a{ 
+border-radius: 3px;
+    margin: 70px;
+}
+
+.lista-menu a:hover, a:active{
+    background-color: rgb(0, 0, 0,.3);
+    transition: .4s;
+}
+
+ .prueba{
+   
+    text-decoration: none;
+    font-size: 18px;
+    
+    text-transform: uppercase;
+    color: #316B83;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: center;
+} 
+
+.img-prueba{
+margin-left: 5px;
+} 
+
+.ig a{
+    text-decoration: none;
+    color: #316B83;
+    size: 20px;
+}
+
+
+
+/* Prueba imagen sec-ig */
 
 
 
