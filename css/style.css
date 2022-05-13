@@ -1,0 +1,134 @@
+body {
+  background-color: #D9ADAD;
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  display: flex inline-block;
+}
+footer section .correo-suscri {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer p li {
+  padding: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: end;
+}
+footer div .mapita {
+  padding: 10px;
+  padding-right: 25px;
+}
+footer .copy {
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
+}
+
+main {
+  background-color: #D9ADAD;
+}
+main .enca-img .img- {
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+main .menu-index {
+  font-size: 20px;
+  background-color: #D9ADAD;
+  padding: 20px, 0;
+  display: flex inline-block;
+  padding-top: 15px;
+}
+main .menu-index .lista-menu {
+  display: flex;
+  justify-content: center;
+}
+main .menu-index .lista-menu li {
+  list-style: none;
+}
+main .menu-index .lista-menu li a {
+  color: #316B83;
+  text-decoration: none;
+  display: flex inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  border-radius: 3px;
+  margin: 70px;
+}
+main .menu-index .lista-menu li .prueba {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #316B83;
+}
+main .menu-index .lista-menu li .img-prueba {
+  margin-left: 5px;
+}
+
+.sec-insta {
+  display: flex inline-block;
+  justify-items: center;
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+.sec-insta .ig {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.sec-insta .ig a {
+  text-decoration: none;
+  color: #316B83;
+  size: 20px;
+}
+.sec-insta .ig .insta.index {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 199, 211);
+}
+.sec-insta .contenedor-foto-ig {
+  display: flex;
+  justify-content: center;
+}
+.sec-insta .contenedor-foto-ig .foto-ig {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.sec-insta .contenedor-follow {
+  display: flex;
+  justify-content: center;
+}
+.sec-insta .contenedor-follow .follow {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-personalizados {
+  display: flex inline-block;
+  padding: 20px;
+}
+.sec-personalizados .contenedor-parrafo {
+  display: flex inline-block;
+  justify-content: center;
+}
+.sec-personalizados .contenedor-parrafo .parrafo {
+  display: flex;
+  justify-content: center;
+}
+.sec-personalizados .personalizados a {
+  text-decoration: none;
+}
+.sec-personalizados .personalizados li {
+  display: inline-block;
+  padding: 20px;
+}
+.sec-personalizados .personalizados li img {
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,138 @@
+
+main {
+    background-color: #D9ADAD;
+ 
+        .enca-img{ 
+            .img-{
+                box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+             }
+
+            }
+    
+        .menu-index { 
+            font-size: 20px;
+            background-color: #D9ADAD;
+            padding: 20px, 0;
+            display: flex inline-block;
+            padding-top: 15px;
+            
+
+                .lista-menu {
+                    display: flex;
+                    justify-content: center;
+
+                        li { list-style: none;
+                            
+                            a{
+                                color: #316B83;
+                                text-decoration: none;
+                                display: flex inline-block;
+                                justify-content: center;
+                                align-items: center;
+                                padding-top: 2px;
+                                border-radius: 3px;
+                                margin: 70px;
+                               }
+                            
+                        }
+                        li{
+                            .prueba{
+                                text-decoration: none;
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                color: #316B83;
+                            }
+                            .img-prueba{
+                                margin-left: 5px;
+                            }
+                        }
+                }
+
+        }
+}
+
+.sec-insta{
+    display: flex inline-block;
+    justify-items: center;
+    background-color: #bb6a6a;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    padding: 40px;
+
+
+    .ig{ 
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+
+        a{ text-decoration: none;
+            color: #316B83;
+            size: 20px;}
+
+        .insta.index{
+            
+            display: flex;
+            justify-content: center;
+            background-color: rgb(247, 199,211);
+
+        }
+    }
+
+    .contenedor-foto-ig{
+        display: flex;
+        justify-content: center;
+
+        .foto-ig{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+    }
+
+    .contenedor-follow{
+        display: flex;
+        justify-content: center;
+
+        .follow {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
+
+.sec-personalizados{
+    display: flex inline-block;
+    padding: 20px;
+
+
+    .contenedor-parrafo{ 
+        display: flex inline-block;
+        justify-content: center;
+        
+        .parrafo{
+            display: flex ;
+            justify-content: center;
+            
+            
+        }
+
+        }
+    .personalizados{
+        a{
+            text-decoration: none;
+        }
+        li{
+            display: inline-block;
+            padding: 20px;
+             img{ 
+             box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+             }
+
+        }
+       
+        }
+
+
+
+    
+}

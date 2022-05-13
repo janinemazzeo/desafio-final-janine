@@ -1,0 +1,36 @@
+footer{
+    display: flex inline-block;
+    section{
+        .correo-suscri {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+    
+
+    }
+
+    p{
+        li{
+            padding: 10px;
+
+        }
+    }
+ 
+    div{
+        display: flex;
+        justify-content:end;
+
+        .mapita{
+            padding: 10px;
+            padding-right: 25px;
+        }
+    }
+
+    .copy{
+        display: flex;
+        justify-content: end;
+        padding-right: 25px;
+    }
+}
