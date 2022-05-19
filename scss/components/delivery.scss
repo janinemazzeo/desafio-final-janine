@@ -1,0 +1,60 @@
+// Cambios al h1
+
+// Cambios al h2
+
+// Cambios a primer seccion 
+.contenedor-ubicaciones{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+         .div-ubi-palermo{
+             display: grid;
+            .ul-ubi-palermo{ 
+                .pin-ubi-palermo{ 
+                    list-style: none;
+                }
+                .img-ubi-palermo{
+                    list-style: none;
+                    .tm-img{
+                        max-width: 100%;
+                        height: auto;
+                        width: 500px;
+                        box-shadow: 5px 0 10px rgba(0, 0, 0, .6)
+                        }
+                }
+                .li-info{
+                    padding-top: 10px;
+                   
+                }
+               
+            }
+        }
+        .div-ubi-carrasco{
+            display: grid;
+            .ul-ubi-carrasco{
+                .pin-ubi-carrasco{
+                    list-style: none;
+                }
+                .img-ubi-carrasco{
+                    list-style: none;
+                   .tm-img{
+                    max-width: 100%;
+                   height: auto;
+                   width: 500px;
+                    box-shadow: 5px 0 10px rgba(0, 0, 0, .6)
+                   }
+
+                }
+                .li-info{
+                    padding-top: 10px;
+                   
+                }
+
+            }
+        }
+
+
+
+}
+
+

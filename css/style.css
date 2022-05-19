@@ -32,6 +32,7 @@ main {
   background-color: #D9ADAD;
 }
 main .enca-img .img- {
+  max-width: 100%;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 main .menu-index {
@@ -95,6 +96,7 @@ main .menu-index .lista-menu li .img-prueba {
   justify-content: center;
 }
 .sec-insta .contenedor-foto-ig .foto-ig {
+  max-width: 100%;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -128,6 +130,7 @@ main .menu-index .lista-menu li .img-prueba {
   padding: 20px;
 }
 .sec-personalizados .personalizados li img {
+  max-width: 100%;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
@@ -157,6 +160,10 @@ main .menu-index .lista-menu li .img-prueba {
 }
 .contenedor-nosotros .texto-nos .sobre-nos {
   padding-bottom: 10px;
+}
+.contenedor-nosotros .contenedor-collage .img-coll {
+  padding-top: 5px;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 .contenedor-nosotros .vision-mision {
   display: grid;
@@ -195,6 +202,51 @@ h5 {
 .carru {
   background-color: #D9ADAD;
   color: black;
+}
+
+.contenedor-ubicaciones {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contenedor-ubicaciones .div-ubi-palermo {
+  display: grid;
+}
+.contenedor-ubicaciones .div-ubi-palermo .ul-ubi-palermo .pin-ubi-palermo {
+  list-style: none;
+}
+.contenedor-ubicaciones .div-ubi-palermo .ul-ubi-palermo .img-ubi-palermo {
+  list-style: none;
+}
+.contenedor-ubicaciones .div-ubi-palermo .ul-ubi-palermo .img-ubi-palermo .tm-img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+.contenedor-ubicaciones .div-ubi-palermo .ul-ubi-palermo .li-info {
+  padding-top: 10px;
+}
+.contenedor-ubicaciones .div-ubi-carrasco {
+  display: grid;
+}
+.contenedor-ubicaciones .div-ubi-carrasco .ul-ubi-carrasco .pin-ubi-carrasco {
+  list-style: none;
+}
+.contenedor-ubicaciones .div-ubi-carrasco .ul-ubi-carrasco .img-ubi-carrasco {
+  list-style: none;
+}
+.contenedor-ubicaciones .div-ubi-carrasco .ul-ubi-carrasco .img-ubi-carrasco .tm-img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+.contenedor-ubicaciones .div-ubi-carrasco .ul-ubi-carrasco .li-info {
+  padding-top: 10px;
+}
+
+.img-menu {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@ main {
  
         .enca-img{ 
             .img-{
+                max-width: 100%;
                 box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
              }
 
@@ -17,6 +18,7 @@ main {
             
 
                 .lista-menu {
+                    
                     display: flex;
                     justify-content: center;
 
@@ -81,6 +83,7 @@ main {
         justify-content: center;
 
         .foto-ig{
+            max-width: 100%;
             display: flex;
             justify-content: center;
             padding: 20px;
@@ -124,6 +127,7 @@ main {
             display: inline-block;
             padding: 20px;
              img{ 
+                max-width: 100%;
              box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
              }
 
