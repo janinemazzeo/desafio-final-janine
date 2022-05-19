@@ -131,4 +131,70 @@ main .menu-index .lista-menu li .img-prueba {
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 
+.cuerpo {
+  background-color: #D9ADAD;
+}
+
+.contenedor-nosotros {
+  display: grid;
+}
+.contenedor-nosotros .primer-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contenedor-nosotros .texto-nos {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contenedor-nosotros .texto-nos .nos-nos {
+  padding-bottom: 15px;
+}
+.contenedor-nosotros .texto-nos .sig-nos {
+  padding-bottom: 10px;
+}
+.contenedor-nosotros .texto-nos .lorem-sig {
+  padding-bottom: 30px;
+}
+.contenedor-nosotros .texto-nos .sobre-nos {
+  padding-bottom: 10px;
+}
+.contenedor-nosotros .vision-mision {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contenedor-nosotros .vision-mision .section-mision .mision-tit {
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contenedor-nosotros .vision-mision .section-mision .lorem-mision {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contenedor-nosotros .vision-mision .section-vision .vision-tit {
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contenedor-nosotros .vision-mision .section-vision .lorem-vision {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contenedor-nosotros .contenedor-pie {
+  display: flex;
+  justify-content: center;
+}
+
+h5 {
+  background-color: #D9ADAD;
+  color: black;
+}
+
+.carru {
+  background-color: #D9ADAD;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

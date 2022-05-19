@@ -1,0 +1,57 @@
+.contenedor-nosotros{
+    display: grid;
+        .primer-section{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .texto-nos{
+            padding-left: 50px;
+            padding-right: 50px;
+             .nos-nos{
+                padding-bottom: 15px;
+            }
+            .sig-nos{
+                padding-bottom: 10px;
+            }
+            .lorem-sig{
+                padding-bottom: 30px;
+            }
+            .sobre-nos{
+                padding-bottom: 10px;
+            }
+        }
+        .vision-mision{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            .section-mision{
+                .mision-tit{
+                    padding-bottom: 10px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+                .lorem-mision{
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+            }
+            .section-vision{
+                .vision-tit{
+                    padding-bottom: 10px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+                .lorem-vision{
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+            }
+    
+        }
+        .contenedor-pie{
+            display: flex;
+            justify-content: center;
+        }
+    
+}
