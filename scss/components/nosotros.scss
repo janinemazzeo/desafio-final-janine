@@ -1,3 +1,4 @@
+@import'../base/variables';
 .contenedor-nosotros{
     display: grid;
         .primer-section{
@@ -5,19 +6,30 @@
             grid-template-columns: 50% 50%;
         }
         .texto-nos{
+            
             padding-left: 50px;
             padding-right: 50px;
              .nos-nos{
+                
                 padding-bottom: 15px;
             }
-            .sig-nos{
+            .sig-nos{background-color: $bg-secundario;
+                box-shadow: $sombra;
                 padding-bottom: 10px;
             }
             .lorem-sig{
+                background-color: $bg-secundario;
+                box-shadow: $sombra;
                 padding-bottom: 30px;
             }
             .sobre-nos{
+                background-color: $bg-secundario;
+                box-shadow: $sombra;
                 padding-bottom: 10px;
+            }
+            .lorem-nos{
+                background-color: $bg-secundario;
+                box-shadow: $sombra;
             }
         }
         .contenedor-collage{
@@ -25,6 +37,7 @@
             .img-coll{
                 
                 padding-top: 5px;
+                
                 box-shadow: 5px 0 10px rgba(0, 0, 0, .6)
             }
             }
@@ -34,24 +47,38 @@
             padding-top: 80px;
             padding-bottom: 80px;
             .section-mision{
+               
                 .mision-tit{
+                    max-width: 640px;
+                    background-color: $bg-secundario;
+                    box-shadow: $sombra;
                     
                     padding-bottom: 10px;
                     padding-left: 50px;
                     padding-right: 50px;
                 }
                 .lorem-mision{
+                    max-width: 640px;
+                    background-color: $bg-secundario;
+                    box-shadow: $sombra;
                     padding-left: 50px;
                     padding-right: 50px;
                 }
             }
             .section-vision{
+                
                 .vision-tit{
+                    max-width: 620px;
+                    background-color: $bg-secundario;
+                    box-shadow: $sombra;
                     padding-bottom: 10px;
                     padding-left: 50px;
                     padding-right: 50px;
                 }
                 .lorem-vision{
+                    max-width: 620px;
+                    background-color: $bg-secundario;
+                    box-shadow: $sombra;
                     padding-left: 50px;
                     padding-right: 50px;
                 }
@@ -59,6 +86,7 @@
     
         }
         .contenedor-pie{
+            padding-bottom: 15px;
             display: flex;
             justify-content: center;
         }

@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   display: flex inline-block;
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 footer section .correo-suscri {
   padding: 20px;
@@ -71,6 +78,7 @@ main .menu-index .lista-menu li .img-prueba {
   background-color: #bb6a6a;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding: 40px;
+  border: 2px solid #e06e6e;
 }
 .sec-insta .ig {
   display: flex;
@@ -149,13 +157,23 @@ main .menu-index .lista-menu li .img-prueba {
   padding-bottom: 15px;
 }
 .contenedor-nosotros .texto-nos .sig-nos {
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 10px;
 }
 .contenedor-nosotros .texto-nos .lorem-sig {
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 30px;
 }
 .contenedor-nosotros .texto-nos .sobre-nos {
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 10px;
+}
+.contenedor-nosotros .texto-nos .lorem-nos {
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
 .contenedor-nosotros .contenedor-collage .img-coll {
   padding-top: 5px;
@@ -168,24 +186,37 @@ main .menu-index .lista-menu li .img-prueba {
   padding-bottom: 80px;
 }
 .contenedor-nosotros .vision-mision .section-mision .mision-tit {
+  max-width: 640px;
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
 .contenedor-nosotros .vision-mision .section-mision .lorem-mision {
+  max-width: 640px;
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-left: 50px;
   padding-right: 50px;
 }
 .contenedor-nosotros .vision-mision .section-vision .vision-tit {
+  max-width: 620px;
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
 .contenedor-nosotros .vision-mision .section-vision .lorem-vision {
+  max-width: 620px;
+  background-color: #bb6a6a;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-left: 50px;
   padding-right: 50px;
 }
 .contenedor-nosotros .contenedor-pie {
+  padding-bottom: 15px;
   display: flex;
   justify-content: center;
 }

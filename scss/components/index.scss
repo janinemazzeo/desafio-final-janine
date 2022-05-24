@@ -1,3 +1,6 @@
+
+@import '../base/variables';
+
 main {
     background-color: #D9ADAD;
  
@@ -53,12 +56,13 @@ main {
 }
 
 .sec-insta{
+ 
     display: flex inline-block;
     justify-items: center;
     background-color: #bb6a6a;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     padding: 40px;
-
+    border: $border-productos;
 
     .ig{ 
         display: flex;
