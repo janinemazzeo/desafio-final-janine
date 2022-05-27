@@ -34,6 +34,9 @@ footer .copy {
 main {
   background-color: #D9ADAD;
 }
+main .titulo {
+  display: none;
+}
 main .enca-img .img- {
   max-width: 100%;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
@@ -60,16 +63,13 @@ main .menu-index .lista-menu li a {
   align-items: center;
   padding-top: 2px;
   border-radius: 3px;
-  margin: 70px;
+  margin: 1rem;
 }
-main .menu-index .lista-menu li .prueba {
-  text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #316B83;
+main .menu-index .lista-menu li a .grow {
+  transition: all 0.2s ease-in-out;
 }
-main .menu-index .lista-menu li .img-prueba {
-  margin-left: 5px;
+main .menu-index .lista-menu li a .grow:hover {
+  transform: scale(1.1);
 }
 
 .sec-insta {
@@ -87,6 +87,7 @@ main .menu-index .lista-menu li .img-prueba {
 }
 .sec-insta .ig a {
   text-decoration: none;
+  text-decoration: blink;
   color: #316B83;
   size: 20px;
 }
@@ -108,6 +109,12 @@ main .menu-index .lista-menu li .img-prueba {
 .sec-insta .contenedor-follow {
   display: flex;
   justify-content: center;
+}
+.sec-insta .contenedor-follow .grow {
+  transition: all 0.2s ease-in-out;
+}
+.sec-insta .contenedor-follow .grow:hover {
+  transform: scale(1.1);
 }
 .sec-insta .contenedor-follow .follow {
   display: flex;
@@ -136,6 +143,36 @@ main .menu-index .lista-menu li .img-prueba {
 .sec-personalizados .personalizados li img {
   max-width: 100%;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.cards .cards-style {
+  background-color: #fff;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+  border: solid 3px rgb(241, 155, 177);
+  border-radius: 10px;
+  margin: 1rem;
+}
+.cards .cards-style .btn-style {
+  color: #3A4040;
+  background-color: #EDF1F1;
+  border-color: #EDF1F1;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px 20px 20px 20px;
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+}
+.cards .cards-style .grow {
+  transition: all 0.2s ease-in-out;
+}
+.cards .cards-style .grow:hover {
+  transform: scale(1.1);
 }
 
 .cuerpo {

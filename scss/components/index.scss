@@ -3,6 +3,9 @@
 
 main {
     background-color: #D9ADAD;
+
+    .titulo{ display: none;
+    }
  
         .enca-img{ 
             .img-{
@@ -35,21 +38,15 @@ main {
                                 align-items: center;
                                 padding-top: 2px;
                                 border-radius: 3px;
-                                margin: 70px;
+                                margin: 1rem;
+                                .grow { transition: all .2s ease-in-out; }
+                                .grow:hover { transform: scale(1.1);
+            }
                                }
                             
                         }
-                        li{
-                            .prueba{
-                                text-decoration: none;
-                                font-size: 18px;
-                                text-transform: uppercase;
-                                color: #316B83;
-                            }
-                            .img-prueba{
-                                margin-left: 5px;
-                            }
-                        }
+                        // 
+                        
                 }
 
         }
@@ -63,13 +60,17 @@ main {
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     padding: 40px;
     border: $border-productos;
+    
 
     .ig{ 
         display: flex;
         justify-content: center;
         justify-items: center;
+        
+        
 
         a{ text-decoration: none;
+            text-decoration: blink;
             color: #316B83;
             size: 20px;}
 
@@ -97,10 +98,14 @@ main {
     .contenedor-follow{
         display: flex;
         justify-content: center;
+        .grow { transition: all .2s ease-in-out; }
+            .grow:hover { transform: scale(1.1);
+            }
 
         .follow {
             display: flex;
             justify-content: center;
+            
         }
     }
 
@@ -139,7 +144,63 @@ main {
        
         }
 
-
+       
 
     
 }
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+
+       .cards-style{
+           background-color: #fff;
+           box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+           border: solid 3px rgb(241, 155, 177);
+           border-radius: 10px;
+           margin: 1rem;
+
+            .btn-style  {
+                color: #3A4040;
+                background-color: #EDF1F1;
+                border-color: #EDF1F1;
+                font-family: "Work Sans", Sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                border-radius: 20px 20px 20px 20px;
+                padding: 15px 25px 15px 25px;
+                cursor: pointer;
+                   
+            }
+            
+            .grow { transition: all .2s ease-in-out; }
+            .grow:hover { transform: scale(1.1);
+            }
+        }  
+
+            
+           
+ }
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
