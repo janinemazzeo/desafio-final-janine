@@ -6,22 +6,26 @@
 
 footer {
   display: flex inline-block;
-  background-color: #bb6a6a;
+  background-color: #EDF1F1;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+  border: solid #a0a1a1;
 }
 footer section .correo-suscri {
   padding: 20px;
   display: flex;
   justify-content: center;
 }
-footer p li {
+footer .footer-nuev {
+  display: flex inline-block;
+}
+footer .footer-nuev p li {
   padding: 10px;
+  display: flex inline-block;
 }
-footer div {
-  display: flex;
-  justify-content: end;
+footer .contenedor-mapita {
+  display: flex inline-block;
 }
-footer div .mapita {
+footer .contenedor-mapita .mapita {
   padding: 10px;
   padding-right: 25px;
 }
@@ -51,6 +55,13 @@ main .menu-index {
 main .menu-index .lista-menu {
   display: flex;
   justify-content: center;
+}
+@media only screen and (max-width: 758px) {
+  main .menu-index .lista-menu {
+    display: inline-block;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 main .menu-index .lista-menu li {
   list-style: none;
@@ -149,6 +160,13 @@ main .menu-index .lista-menu li a .grow:hover {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+@media only screen and (max-width: 758px) {
+  .cards {
+    display: inline-block;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 .cards .cards-style {
   background-color: #fff;
@@ -309,8 +327,65 @@ h5 {
   padding-top: 10px;
 }
 
-.img-menu {
+.main-menu .h1-menu {
+  display: none;
+}
+.main-menu .img-menu {
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 758px) {
+  .main-menu .img-menu {
+    display: none;
+  }
+}
+.main-menu .nav-menu {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border: solid #EDF1F1;
+}
+.main-menu .nav-menu .nav-item .nav-link {
+  color: #3A4040;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+@media only screen and (max-width: 758px) {
+  .cards {
+    display: inline-block;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+.cards .cards-style {
+  background-color: #fff;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+  border: solid 3px rgb(241, 155, 177);
+  border-radius: 10px;
+  margin: 1rem;
+}
+.cards .cards-style .btn-style {
+  color: #3A4040;
+  background-color: #EDF1F1;
+  border-color: #EDF1F1;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px 20px 20px 20px;
+  padding: 15px 25px 15px 25px;
+  cursor: pointer;
+}
+.cards .cards-style .grow {
+  transition: all 0.2s ease-in-out;
+}
+.cards .cards-style .grow:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

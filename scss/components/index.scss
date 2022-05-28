@@ -21,12 +21,21 @@ main {
             padding: 20px, 0;
             display: flex inline-block;
             padding-top: 15px;
+            // @media only screen and (max-width:758px){
+            //     display: inline-block;}
+
+        
             
 
                 .lista-menu {
                     
                     display: flex;
                     justify-content: center;
+                    @media only screen and (max-width:758px){
+                        display: inline-block;
+                        display: grid;
+                        grid-template-rows: 1fr 1fr 1fr;
+                    }
 
                         li { list-style: none;
                             
@@ -152,6 +161,15 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: row;
+
+    @media only screen and (max-width:758px){
+        display: inline-block;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    }
+
+
   
 
        .cards-style{

@@ -1,7 +1,8 @@
 footer{
     display: flex inline-block;
-    background-color: #bb6a6a;
+    background-color: #EDF1F1;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    border: solid #a0a1a1;
     section{
         .correo-suscri {
             padding: 20px;
@@ -13,20 +14,34 @@ footer{
 
     }
 
+    .footer-nuev{
+        display: flex inline-block;
+
     p{
         li{
             padding: 10px;
+            display: flex inline-block;
+            
+    
+        }
+
+           
 
         }
     }
  
-    div{
-        display: flex;
-        justify-content:end;
+    .contenedor-mapita{
+        display: flex inline-block;
+        
+
+        
+
 
         .mapita{
             padding: 10px;
             padding-right: 25px;
+           
+                
         }
     }
 
@@ -35,4 +50,5 @@ footer{
         justify-content: end;
         padding-right: 25px;
     }
+
 }
