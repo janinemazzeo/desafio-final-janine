@@ -1,18 +1,57 @@
 // Cambios al h1
+h1{
+    display: none;
+}
+
 
 // Cambios al h2
+.section-h2{
+    display: flex;
+    justify-content: center;
+    .lore-h{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.botons{
+    padding-bottom: 10px;
+}
+
 
 // Cambios a primer seccion 
 .contenedor-ubicaciones{
+    padding-right: 30px;
+    @media only screen and (max-width:758px){
+        padding-right: 30px;
+        
+    }
+    
+
     display: grid;
     grid-template-columns: 50% 50%;
 
-         .div-ubi-palermo{
+       .div-ubi-palermo{
              display: grid;
+           
+        
+             
+          
             .ul-ubi-palermo{ 
+                
                 .pin-ubi-palermo{ 
                     list-style: none;
+                   
+                        
                 }
+            
                 .img-ubi-palermo{
                     list-style: none;
                     .tm-img{
@@ -53,8 +92,13 @@
             }
         }
 
-
-
+    
+  
+        
 }
 
+// Footer
+.correo-suscri{
+    font-size: 17px;
 
+}

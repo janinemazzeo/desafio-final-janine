@@ -66,6 +66,13 @@ main .menu-index .lista-menu {
 main .menu-index .lista-menu li {
   list-style: none;
 }
+@media only screen and (max-width: 758px) {
+  main .menu-index .lista-menu li {
+    border-radius: 10px;
+    margin: 5px;
+    padding-bottom: 15px;
+  }
+}
 main .menu-index .lista-menu li a {
   color: #316B83;
   text-decoration: none;
@@ -81,6 +88,13 @@ main .menu-index .lista-menu li a .grow {
 }
 main .menu-index .lista-menu li a .grow:hover {
   transform: scale(1.1);
+}
+@media only screen and (max-width: 758px) {
+  main .menu-index .lista-menu li a .grow:hover {
+    border-radius: 10px;
+    margin: 5px;
+    padding-bottom: 15px;
+  }
 }
 
 .sec-insta {
@@ -175,6 +189,27 @@ main .menu-index .lista-menu li a .grow:hover {
   border-radius: 10px;
   margin: 1rem;
 }
+.cards .cards-style .btn-primary {
+  margin-top: 10px;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+  border-radius: 10px 10px 10px 10px;
+  border-color: #202424;
+  padding: 5px 12px 5px 12px;
+  color: #FFFFFF;
+  background-color: #202424;
+  transition: all 0.2s;
+}
+.cards .cards-style .cl {
+  transition: all 0.2s ease-in-out;
+}
+.cards .cards-style .cl:hover {
+  transform: scale(1.1);
+  border: #D9ADAD;
+  background-color: #D9ADAD;
+  color: #3A4040;
+}
 .cards .cards-style .btn-style {
   color: #3A4040;
   background-color: #EDF1F1;
@@ -184,6 +219,7 @@ main .menu-index .lista-menu li a .grow:hover {
   font-weight: bold;
   border-radius: 20px 20px 20px 20px;
   padding: 15px 25px 15px 25px;
+  margin-top: 15px;
   cursor: pointer;
 }
 .cards .cards-style .grow {
@@ -286,9 +322,38 @@ h5 {
   color: black;
 }
 
+h1 {
+  display: none;
+}
+
+.section-h2 {
+  display: flex;
+  justify-content: center;
+}
+.section-h2 .lore-h {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.botons {
+  padding-bottom: 10px;
+}
+
 .contenedor-ubicaciones {
+  padding-right: 30px;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width: 758px) {
+  .contenedor-ubicaciones {
+    padding-right: 30px;
+  }
 }
 .contenedor-ubicaciones .div-ubi-palermo {
   display: grid;
@@ -325,6 +390,10 @@ h5 {
 }
 .contenedor-ubicaciones .div-ubi-carrasco .ul-ubi-carrasco .li-info {
   padding-top: 10px;
+}
+
+.correo-suscri {
+  font-size: 17px;
 }
 
 .main-menu .h1-menu {

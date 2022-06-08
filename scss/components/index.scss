@@ -35,9 +35,15 @@ main {
                         display: inline-block;
                         display: grid;
                         grid-template-rows: 1fr 1fr 1fr;
+                        
                     }
 
                         li { list-style: none;
+                            @media only screen and (max-width:758px){
+                                border-radius: 10px;
+                                margin: 5px;
+                                padding-bottom: 15px;
+                                }
                             
                             a{
                                 color: #316B83;
@@ -50,6 +56,11 @@ main {
                                 margin: 1rem;
                                 .grow { transition: all .2s ease-in-out; }
                                 .grow:hover { transform: scale(1.1);
+                                    @media only screen and (max-width:758px){
+                                    border-radius: 10px;
+                                    margin: 5px;
+                                    padding-bottom: 15px;
+                                    }
             }
                                }
                             
@@ -162,6 +173,8 @@ main {
     justify-content: center;
     flex-direction: row;
 
+    
+
     @media only screen and (max-width:758px){
         display: inline-block;
         display: grid;
@@ -179,7 +192,32 @@ main {
            border-radius: 10px;
            margin: 1rem;
 
+           
+            .btn-primary{
+                margin-top: 10px;
+                font-family: "Work Sans", Sans-serif;
+    // font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #202424;
+    padding: 5px 12px 5px 12px;
+    color: #FFFFFF;
+    background-color: #202424;
+    transition: all 0.2s;
+    
+                
+            }
+            .cl{ transition: all .2s ease-in-out; }
+            .cl:hover{
+                transform: scale(1.1);
+                border: #D9ADAD;
+                background-color: #D9ADAD;
+                color: #3A4040;
+            }
+
             .btn-style  {
+                
                 color: #3A4040;
                 background-color: #EDF1F1;
                 border-color: #EDF1F1;
@@ -188,17 +226,20 @@ main {
                 font-weight: bold;
                 border-radius: 20px 20px 20px 20px;
                 padding: 15px 25px 15px 25px;
+                margin-top: 15px;
                 cursor: pointer;
+                
                    
             }
             
+            
             .grow { transition: all .2s ease-in-out; }
             .grow:hover { transform: scale(1.1);
+                
             }
         }  
+    
 
-            
-           
  }
 
       
