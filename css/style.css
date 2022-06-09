@@ -23,17 +23,14 @@ footer .footer-nuev p li {
   padding: 10px;
   display: flex inline-block;
 }
-footer .contenedor-mapita {
-  display: flex inline-block;
-}
-footer .contenedor-mapita .mapita {
-  padding: 10px;
-  padding-right: 25px;
-}
 footer .copy {
   display: flex;
   justify-content: end;
   padding-right: 25px;
+}
+
+.section-info .info-footer .footer-info .li {
+  font-size: 10px;
 }
 
 main {
@@ -353,25 +350,36 @@ main .menu-index .lista-menu li a .grow:hover {
 }
 .contenedor-nosotros .texto-nos .nos-nos {
   padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .contenedor-nosotros .texto-nos .sig-nos {
   background-color: #70AF85;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .contenedor-nosotros .texto-nos .lorem-sig {
   background-color: #70AF85;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .contenedor-nosotros .texto-nos .sobre-nos {
   background-color: #70AF85;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .contenedor-nosotros .texto-nos .lorem-nos {
   background-color: #70AF85;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .contenedor-nosotros .contenedor-collage {
   max-width: 500px;
@@ -430,6 +438,9 @@ main .menu-index .lista-menu li a .grow:hover {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .contenedor-nosotros .vision-mision .section-mision .lorem-mision {
   max-width: 580px;
@@ -438,6 +449,9 @@ main .menu-index .lista-menu li a .grow:hover {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 @media only screen and (max-width: 758px) {
   .contenedor-nosotros .vision-mision .section-vision {
@@ -451,6 +465,9 @@ main .menu-index .lista-menu li a .grow:hover {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .contenedor-nosotros .vision-mision .section-vision .lorem-vision {
   max-width: 580px;
@@ -459,6 +476,9 @@ main .menu-index .lista-menu li a .grow:hover {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .contenedor-nosotros .contenedor-pie {
   padding-bottom: 15px;

@@ -18,6 +18,7 @@ main {
         .menu-index { 
             font-size: 20px;
             background-color: #C6EBC9;
+           
             padding: 20px, 0;
             display: flex inline-block;
             padding-top: 15px;
@@ -31,6 +32,7 @@ main {
                     
                     display: flex;
                     justify-content: center;
+                    
                     @media only screen and (max-width:758px){
                         display: inline-block;
                         display: grid;
@@ -46,6 +48,7 @@ main {
                                 }
                             
                             a{
+                                
                                 color: #316B83;
                                 text-decoration: none;
                                 display: flex inline-block;
@@ -328,7 +331,7 @@ main {
   }
   
 
-            
+      
 
 
 
