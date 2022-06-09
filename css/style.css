@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 * {
   margin: 0;
@@ -236,9 +237,20 @@ main .menu-index .lista-menu li a .grow:hover {
 .contenedor-nosotros {
   display: grid;
 }
+@media only screen and (max-width: 758px) {
+  .contenedor-nosotros {
+    display: block;
+  }
+}
 .contenedor-nosotros .primer-section {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width: 758px) {
+  .contenedor-nosotros .primer-section {
+    display: block;
+  }
 }
 .contenedor-nosotros .texto-nos {
   padding-left: 50px;
@@ -266,9 +278,36 @@ main .menu-index .lista-menu li a .grow:hover {
   background-color: #bb6a6a;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
 }
-.contenedor-nosotros .contenedor-collage .img-coll {
-  padding-top: 5px;
+.contenedor-nosotros .contenedor-collage {
+  max-width: 500px;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+@media only screen and (max-width: 1012px) {
+  .contenedor-nosotros .contenedor-collage {
+    max-width: 400px;
+    max-height: 472px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .contenedor-nosotros .contenedor-collage {
+    max-width: 300px;
+    max-height: 355px;
+  }
+}
+@media only screen and (max-width: 1012px) {
+  .contenedor-nosotros .contenedor-collage .img-coll {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .contenedor-nosotros .contenedor-collage .img-coll {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .contenedor-nosotros .contenedor-collage {
+    display: none;
+  }
 }
 .contenedor-nosotros .vision-mision {
   display: grid;
@@ -276,40 +315,95 @@ main .menu-index .lista-menu li a .grow:hover {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+@media only screen and (max-width: 758px) {
+  .contenedor-nosotros .vision-mision {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1018px) {
+  .contenedor-nosotros .vision-mision {
+    display: block;
+    justify-content: center;
+  }
+}
 .contenedor-nosotros .vision-mision .section-mision .mision-tit {
-  max-width: 640px;
+  max-width: 580px;
   background-color: #bb6a6a;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
-  padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .contenedor-nosotros .vision-mision .section-mision .lorem-mision {
-  max-width: 640px;
+  max-width: 580px;
   background-color: #bb6a6a;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 758px) {
+  .contenedor-nosotros .vision-mision .section-vision {
+    display: block;
+  }
 }
 .contenedor-nosotros .vision-mision .section-vision .vision-tit {
-  max-width: 620px;
+  max-width: 580px;
   background-color: #bb6a6a;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
-  padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .contenedor-nosotros .vision-mision .section-vision .lorem-vision {
-  max-width: 620px;
+  max-width: 580px;
   background-color: #bb6a6a;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .contenedor-nosotros .contenedor-pie {
   padding-bottom: 15px;
   display: flex;
   justify-content: center;
+}
+@media only screen and (max-width: 758px) {
+  .contenedor-nosotros .contenedor-pie {
+    display: none;
+  }
+}
+
+.carru-tamaño {
+  max-width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 1206px) {
+  .carru-tamaño {
+    margin-left: 75px;
+  }
+}
+@media only screen and (max-width: 1125px) {
+  .carru-tamaño {
+    margin-left: 33px;
+  }
+}
+@media only screen and (max-width: 1066px) {
+  .carru-tamaño {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 1066px) {
+  .carru-tamaño {
+    margin-left: 0px;
+  }
 }
 
 h5 {

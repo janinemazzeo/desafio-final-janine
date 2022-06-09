@@ -1,3 +1,27 @@
+.carru-tamaño{
+    max-width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 155px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    @media only screen and (max-width:1206px){
+        margin-left: 75px;            
+    }
+    @media only screen and (max-width:1125px){
+        margin-left: 33px;            
+    }
+    @media only screen and (max-width:1066px){
+        margin-left: 5px;      
+    }
+    @media only screen and (max-width:1066px){
+        margin-left: 0px;      
+    }
+        
+   
+}
+
 h5{
     background-color: #D9ADAD;
     color: black;
