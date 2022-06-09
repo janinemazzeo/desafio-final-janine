@@ -139,27 +139,8 @@
                     <img src="imagenes/boxindex.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Box personalizados</h5>
-                      <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary cl cl:hover" data-bs-toggle="modal" data-bs-target="#exampleModal"> Ver descripción
-                </button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Hola</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-Hola
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+            
+                      <p></p>
                       
                       <a href="#" class="btn btn-style grow grow:hover ">Añadir al carrito</a>
                     </div>
@@ -169,29 +150,7 @@ Hola
                     <img src="imagenes/gifcardd.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Gift card.</h5>
-                      <!-- Button trigger modal -->
-<button type="button" class="btt btt-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Holaaaa</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-  
-        </div>
-      </div>
-    </div>
-  </div>
+ 
                       <!-- Boton "Añadir carrito" -->
                       <a href="#" class="btn btn-style grow grow:hover ">Añadir al carrito</a>
                     </div>
@@ -200,15 +159,32 @@ Hola
     </main>
    
 <footer class="pie-pagina">
+  <section class="widget widget_blog_subscription option-b">
+    <form action="suscripcion.html" method="post" accept-charset="utf-8" id="subscribe-blog">
+      <p>Subscribete para recibir nuestras ofertas!</p>
+      <p>
+        <input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Ingresa tu direción de email" value="" id="subscribe-field">
+      </p>
+      <p>
+        <input type="hidden" name="action" value="subscribe">
+        <input type="hidden" name="blog_id" value="109214814">
+        <input type="hidden" name="source" value="suscripcion.htlm">
+        <input type="hidden" name="sub-type" value="widget">
+        <input type="hidden" name="redirect_fragment" value="blog_subscription-2">
+        <input type="hidden" id="_wpnonce" name="_wpnonce" value="b0a1e6c4b6">
+        <input type="submit" value="Suscribete">
+      </p>
+    </form>
+  </section>
     <section>
-        <p class="correo-suscri">
+        <!-- <p class="correo-suscri">
             <h2 class="correo-suscri">
                 SUSCRIBETE A NUESTRA SECCIÓN DE NOTICIAS
             </h2>
             <a class="correo-suscri" href="https://www.google.com/intl/es/gmail/about/">Correo Electrónico
     
             </a>
-        </p>
+        </p> -->
    
         <p class="info-footer">
             <ul class="footer-info">

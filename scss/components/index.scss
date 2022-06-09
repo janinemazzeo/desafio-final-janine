@@ -2,7 +2,7 @@
 @import '../base/variables';
 
 main {
-    background-color: #D9ADAD;
+    background-color: #C6EBC9;
 
     .titulo{ display: none;
     }
@@ -17,7 +17,7 @@ main {
     
         .menu-index { 
             font-size: 20px;
-            background-color: #D9ADAD;
+            background-color: #C6EBC9;
             padding: 20px, 0;
             display: flex inline-block;
             padding-top: 15px;
@@ -76,7 +76,7 @@ main {
  
     display: flex inline-block;
     justify-items: center;
-    background-color: #bb6a6a;
+    background-color: #F0E2D0;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     padding: 40px;
     border: $border-productos;
@@ -98,7 +98,7 @@ main {
             
             display: flex;
             justify-content: center;
-            background-color: rgb(247, 199,211);
+            background-color: rgb(112, 175, 133);
 
         }
     }
@@ -164,7 +164,7 @@ main {
        
         }
 
-       
+        
 
     
 }
@@ -188,7 +188,7 @@ main {
        .cards-style{
            background-color: #fff;
            box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-           border: solid 3px rgb(241, 155, 177);
+           border: solid 3px rgb(112, 175, 133);
            border-radius: 10px;
            margin: 1rem;
 
@@ -240,9 +240,95 @@ main {
         }  
     
 
+
+
  }
 
-      
+ //  Sección de suscripción
+.widget_blog_subscription {
+    display: block;
+    margin: 30px auto;
+    max-width: 500px;
+
+    max-height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: #F6F6F2;
+  }
+  .widget_blog_subscription p {
+    margin: 0;
+    text-align: center;
+  }
+  .widget_blog_subscription p:first-child {
+    margin: 20px 15px 0;
+    color: #F38630;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+  }
+  .widget_blog_subscription input[type="text"] {
+    margin: 20px 30px;
+    color: #999;
+    padding: 15px 10px !important;
+    text-align: center;
+    max-width: 350px;
+    max-height: 200px;
+    outline: none;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+.widget_blog_subscription input[type="submit"] {
+  margin: 0;
+  background-color: #69D2E7;
+  color: #fff;
+  padding: 15px 15px !important;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: .1s all ease-in-out;
+  -moz-transition: .1s all ease-in-out;
+  -o-transition: .1s all ease-in-out;
+  transition: .1s all ease-in-out;
+}
+.option-b.widget_blog_subscription {
+    background-color: #C6EBC9;
+  }
+  .option-b.widget_blog_subscription p:first-child {
+    color: #999;
+  }
+  .option-b.widget_blog_subscription input[type="text"] {
+    color: #999;
+  }
+  .option-b.widget_blog_subscription input[type="text"]::-webkit-input-placeholder {
+    color: #999;
+  }
+  .option-b.widget_blog_subscription input[type="text"]:-moz-placeholder {
+    color: #999;
+  }
+  .option-b.widget_blog_subscription input[type="text"]::-moz-placeholder {
+    color: #999;
+  }
+  .option-b.widget_blog_subscription input[type="text"]:-ms-input-placeholder {
+    color: #999;
+  }
+  .option-b.widget_blog_subscription input[type="submit"] {
+    background-color: #70AF85;
+    color: #fff;
+  }
+  .option-b.widget_blog_subscription input[type="submit"]:hover {
+    background-color: #E0E4CC;
+  }
+  
+
+            
 
 
 
